@@ -25,6 +25,69 @@ a {
     background: black;
   }
 }
+
+.nav {
+  background-color: #6366f1;
+  margin-top: 20px;
+  color: white;
+  border-radius: 6px;
+  height: 56px;
+}
+
+.buttonContainer {
+  display: grid;
+  justify-items: center;
+  margin-left: 40px;
+  margin-bottom: 40px;
+}
+
+.button {
+  margin-bottom: 20px;
+  background-color: #6366f1;
+  color: white;
+  border-radius: 6px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 8px;
+  padding-top: 8px;
+}
+
+.container {
+  background-color: white;
+  	box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+  margin-top: 20px;
+  border-radius: 6px;
+  }
+  
+
+@media (min-width: 768px) {
+  .nav {
+      margin-left: 40px;
+      margin-right: 40px;
+  }
+}
+
+@media (min-width: 1024px) { 
+  .nav {
+      margin-left: 40px;
+      margin-right: 40px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .nav {
+      margin-left: 40px;
+      margin-right: 40px;
+  }
+}
+
+@media (min-width: 1536px) {
+  .nav {
+      margin-left: 40px;
+      margin-right: 40px;
+  }
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

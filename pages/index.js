@@ -13,6 +13,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 <NavBar/>
+<h1 className='bg-red-100'>Hola</h1>
 <Container/>
      <main className={styles.main}>
       
