@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import Container from '../Components/Container'
-import NavBar from '../Components/NavBar'
+import Container from './Components/Container'
+import NavBar from './Components/NavBar'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
