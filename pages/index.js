@@ -3,6 +3,7 @@ import Image from 'next/image'
 import Container from './Components/Container'
 import NavBar from './Components/NavBar'
 import styles from '../styles/Home.module.css'
+import Info from './Components/Info'
 
 export default function Home() {
   return (
@@ -13,8 +14,19 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 <NavBar/>
-<h1 className='bg-red-100'>Hola</h1>
+
+<div className=''>
 <Container/>
+
+</div>
+
+<div>
+  <div className=''>
+    <Info image='https://www.svgrepo.com/show/423679/store-verified-shopping.svg' text='2'/>
+    <Info image='https://www.svgrepo.com/show/423679/store-verified-shopping.svg' text='2'/>
+  </div>
+</div>
+
      <main className={styles.main}>
       
      </main>

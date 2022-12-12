@@ -91,3 +91,35 @@ a {
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.w {
+  width: 900px;
+}
+
+.info {
+  width: 450px;
+}
+
+
+@media (max-width: 1000px) {
+  .w {
+      width: 700px;
+  }
+  
+}
+
+@media (min-width: 1000px) {
+  .m{
+      margin-left:130px;
+      
+  }
+  
+}
+
+@media (max-width: 600px) {
+  .w {
+      width: auto
+    
+  }
+}
+

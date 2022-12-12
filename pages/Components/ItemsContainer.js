@@ -63,16 +63,17 @@ export default function ItemsContainer() {
             image: 'https://www.svgrepo.com/show/428661/monero-crypto-cryptocurrency-coins.svg',
             id:12
         },
+        
     ]
 
     return (
-    <div className='grid grid-cols-3 py-6'>
+    <div className='grid grid-cols-2 py-6 md:grid-cols-3 lg:mr-28'>
         {
             coins.map(coin => {
                 return(
-                    <div key={coin.id} className=' border cursor-pointer rounded-md flex mt-2 items-center border-gray-300 h-14 w-28 '>
+                    <div key={coin.id} className=' border cursor-pointer rounded-md flex mt-2 items-center border-gray-300 h-14 w-24 '>
                         <img src={coin.image} alt={coin.name} className='my-1  w-12 h-12 mx-1'></img>
-                        <p className='ml-1'>{coin.name}</p>
+                        <p className='text-sm '>{coin.name}</p>
                     </div>
                 )
             })
