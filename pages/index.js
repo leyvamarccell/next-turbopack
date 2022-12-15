@@ -4,6 +4,8 @@ import Container from './Components/Container'
 import NavBar from './Components/NavBar'
 import styles from '../styles/Home.module.css'
 import Info from './Components/Info'
+import Cards from './Components/Cards'
+import Acordion from './Components/Acordion'
 
 export default function Home() {
   return (
@@ -21,16 +23,18 @@ export default function Home() {
 </div>
 
 <div>
-  <div className=''>
-    <Info image='https://www.svgrepo.com/show/423679/store-verified-shopping.svg' text='2'/>
-    <Info image='https://www.svgrepo.com/show/423679/store-verified-shopping.svg' text='2'/>
-  </div>
+  <Cards/>
 </div>
 
-     <main className={styles.main}>
-      
-     </main>
+<div className=''>
+<Info image='https://www.svgrepo.com/show/423679/store-verified-shopping.svg' image_2='https://www.svgrepo.com/show/423693/discount-sign-money.svg' text='Nuestro sistema es independiente a Bancos internacionales, independiente a sanciones internacionales o no disponibilidad de fondos, la red Blockchain subsiste e impera.' text_2='Tenemos la satisfacción de brindar el servicio con los impuestos más bajos en el mercado de las remesas.' image_3='https://www.svgrepo.com/show/423681/payment-cards-money.svg' text_3='Respaldados por un robusto sistema de subastas, garantizamos que las transacciones de Bitcoin sean entregadas sin errores.'/> 
 
+
+</div>
+<div>
+ <Acordion/>
+</div>
+   
       <footer className={styles.footer}>
         <a
           href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"

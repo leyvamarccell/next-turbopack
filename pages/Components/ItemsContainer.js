@@ -44,23 +44,23 @@ export default function ItemsContainer() {
             id:8
         },
         {
-            name: 'MON',
-            image: 'https://www.svgrepo.com/show/428661/monero-crypto-cryptocurrency-coins.svg',
+            name: 'SOL',
+            image: 'https://qvapay.com/img/coins/sol.svg',
             id:9
         },
         {
-            name: 'MON',
-            image: 'https://www.svgrepo.com/show/428661/monero-crypto-cryptocurrency-coins.svg',
+            name: 'USD',
+            image: 'https://www.svgrepo.com/show/40940/united-states-of-america.svg',
             id:10
         },
         {
-            name: 'MON',
-            image: 'https://www.svgrepo.com/show/428661/monero-crypto-cryptocurrency-coins.svg',
+            name: 'CUP',
+            image: 'https://www.svgrepo.com/show/205832/peso.svg',
             id:11
         },
         {
-            name: 'MON',
-            image: 'https://www.svgrepo.com/show/428661/monero-crypto-cryptocurrency-coins.svg',
+            name: 'ETC',
+            image: 'https://qvapay.com/img/coins/etecsa.svg',
             id:12
         },
         

@@ -4,7 +4,7 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-    background-color: rgb(251, 251, 251)
+    background-color: (249 250 251)
   }
 
 a {
@@ -34,31 +34,8 @@ a {
   height: 56px;
 }
 
-.buttonContainer {
-  display: grid;
-  justify-items: center;
-  margin-left: 40px;
-  margin-bottom: 40px;
-}
 
-.button {
-  margin-bottom: 20px;
-  background-color: #6366f1;
-  color: white;
-  border-radius: 6px;
-  padding-left: 100px;
-  padding-right: 100px;
-  padding-bottom: 8px;
-  padding-top: 8px;
-}
 
-.container {
-  background-color: white;
-  	box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
-  margin-top: 20px;
-  border-radius: 6px;
-  }
-  
 
 @media (min-width: 768px) {
   .nav {
@@ -94,10 +71,7 @@ a {
 
 .w {
   width: 900px;
-}
-
-.info {
-  width: 450px;
+  
 }
 
 
@@ -122,4 +96,7 @@ a {
     
   }
 }
+.s1 {
 
+width: 350px;
+}
